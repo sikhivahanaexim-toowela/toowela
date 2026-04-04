@@ -16,7 +16,7 @@ const BrandName = ({ className }: BrandNameProps) => {
       <span className="relative inline-block">
         <span className="font-black">l</span>
         <span
-          className="absolute left-1/2 -translate-x-1/2 -top-[0.45em] text-[0.5em] font-black leading-none"
+          className="absolute left-1/2 -translate-x-1/2 -top-[0.3em] text-[0.5em] font-black leading-none"
           style={{ fontFamily: "Arial, sans-serif" }}
         >
           ▲
