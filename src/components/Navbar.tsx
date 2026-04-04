@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import BrandName from "@/components/BrandName";
 
 const navLinks = [
   { label: "Home", path: "/" },
@@ -17,9 +18,7 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 bg-background/95 backdrop-blur border-b border-border">
       <div className="container flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="flex items-center gap-2">
-          <span className="font-heading text-2xl md:text-3xl font-bold tracking-tight">
-            Too<span className="text-primary">W</span>ela
-          </span>
+          <BrandName />
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">

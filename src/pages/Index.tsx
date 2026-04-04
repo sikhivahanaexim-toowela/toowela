@@ -42,7 +42,7 @@ const Index = () => {
             className="max-w-2xl"
           >
             <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground leading-tight">
-              Professional <span className="text-primary">Power Tools</span> & Equipment
+              Power Tools <br /><span className="text-primary">&</span> Welding Equipment Company
             </h1>
             <p className="mt-4 text-lg text-primary-foreground/80 max-w-lg">
               TooWela — your trusted source for industrial-grade power tools, welding machines, and construction equipment.

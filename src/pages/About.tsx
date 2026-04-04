@@ -12,7 +12,7 @@ const About = () => {
         <div className="absolute inset-0 bg-hero-overlay/60" />
         <div className="container relative z-10 text-center">
           <h1 className="font-heading text-4xl md:text-5xl font-bold text-primary-foreground">
-            About <span className="text-primary">TooWela</span>
+            About TooWela
           </h1>
         </div>
       </section>
