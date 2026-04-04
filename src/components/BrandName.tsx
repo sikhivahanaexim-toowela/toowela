@@ -17,7 +17,7 @@ const BrandName = ({ className }: BrandNameProps) => {
         <span className="font-black">l</span>
         <span
           className="absolute -top-[0.3em] text-[0.5em] font-black leading-none"
-          style={{ fontFamily: "Arial, sans-serif", left: "50%", transform: "translateX(-50%)" }}
+          style={{ fontFamily: "Arial, sans-serif", left: "45%", transform: "translateX(-50%)" }}
         >
           ▲
         </span>
