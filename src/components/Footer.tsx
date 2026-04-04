@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import BrandName from "@/components/BrandName";
 
 const Footer = () => {
   return (
