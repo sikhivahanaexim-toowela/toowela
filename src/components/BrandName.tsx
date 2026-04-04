@@ -1,5 +1,4 @@
 import { cn } from "@/lib/utils";
-import toowelaL from "@/assets/toowela-l.png";
 
 interface BrandNameProps {
   className?: string;
@@ -14,7 +13,16 @@ const BrandName = ({ className }: BrandNameProps) => {
         <span className="absolute inset-0 text-primary" style={{ clipPath: "inset(0 0 0 50%)" }}>W</span>
       </span>
       e
-      <img src={toowelaL} alt="l" className="inline-block h-[1.1em] w-auto -mx-[0.05em] align-baseline" />
+      <span className="relative inline-block">
+        <span className="font-black">l</span>
+        {/* Upward arrow on top of l */}
+        <span
+          className="absolute left-1/2 -translate-x-1/2 -top-[0.45em] text-[0.5em] font-black leading-none"
+          style={{ fontFamily: "Arial, sans-serif" }}
+        >
+          ▲
+        </span>
+      </span>
       a
     </span>
   );
