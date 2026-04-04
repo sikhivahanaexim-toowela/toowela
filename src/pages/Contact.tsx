@@ -1,22 +1,9 @@
-import { useState } from "react";
 import { motion } from "framer-motion";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Layout from "@/components/Layout";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { useToast } from "@/hooks/use-toast";
+import contactImg from "@/assets/contact-machinery.jpg";
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [form, setForm] = useState({ name: "", email: "", phone: "", message: "" });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({ title: "Message Sent!", description: "We'll get back to you shortly." });
-    setForm({ name: "", email: "", phone: "", message: "" });
-  };
-
   return (
     <Layout>
       {/* Header */}
@@ -66,54 +53,18 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="mt-8 p-6 bg-secondary rounded-lg">
-                <p className="text-sm text-muted-foreground">
-                  <strong className="text-foreground">Parent Company:</strong> sikhivahanaexim
-                </p>
-              </div>
             </motion.div>
 
-            {/* Contact Form */}
+            {/* Machinery Image */}
             <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.5 }}>
-              <form onSubmit={handleSubmit} className="space-y-5">
-                <div>
-                  <Input
-                    placeholder="Your Name"
-                    value={form.name}
-                    onChange={(e) => setForm({ ...form, name: e.target.value })}
-                    required
-                  />
-                </div>
-                <div>
-                  <Input
-                    type="email"
-                    placeholder="Your Email"
-                    value={form.email}
-                    onChange={(e) => setForm({ ...form, email: e.target.value })}
-                    required
-                  />
-                </div>
-                <div>
-                  <Input
-                    placeholder="Phone Number"
-                    value={form.phone}
-                    onChange={(e) => setForm({ ...form, phone: e.target.value })}
-                  />
-                </div>
-                <div>
-                  <Textarea
-                    placeholder="Your Message"
-                    rows={5}
-                    value={form.message}
-                    onChange={(e) => setForm({ ...form, message: e.target.value })}
-                    required
-                  />
-                </div>
-                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary-hover">
-                  Send Message
-                </Button>
-              </form>
+              <img
+                src={contactImg}
+                alt="Industrial welding and power tool equipment"
+                className="w-full h-full object-cover rounded-lg"
+                loading="lazy"
+                width={1024}
+                height={768}
+              />
             </motion.div>
           </div>
         </div>
