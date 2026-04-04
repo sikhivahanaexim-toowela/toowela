@@ -40,7 +40,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-sm">Phone</h4>
-                    <p className="text-muted-foreground text-sm">9840407050</p>
+                    <p className="text-muted-foreground text-sm">+91 9840407050</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -49,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-sm">Address</h4>
-                    <p className="text-muted-foreground text-sm">India</p>
+                    <p className="text-muted-foreground text-sm">No.38 Trunk Road, Poonamallee, Chennai - 600056, Tamilnadu, India</p>
                   </div>
                 </div>
               </div>
