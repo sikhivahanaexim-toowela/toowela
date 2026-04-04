@@ -135,21 +135,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 md:py-20 bg-primary text-primary-foreground">
-        <div className="container text-center">
-          <h2 className="font-heading text-3xl md:text-4xl font-bold">Ready to Power Your Business?</h2>
-          <p className="mt-3 text-primary-foreground/80 max-w-xl mx-auto">
-            Get in touch with us today for bulk orders, custom requirements, or product inquiries.
-          </p>
-          <Link
-            to="/contact"
-            className="inline-flex items-center gap-2 mt-8 px-8 py-3 bg-primary-foreground text-primary font-semibold rounded-md hover:bg-primary-foreground/90 transition-colors"
-          >
-            Get a Quote <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
     </Layout>
   );
 };
