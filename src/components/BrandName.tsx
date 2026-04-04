@@ -6,7 +6,7 @@ interface BrandNameProps {
 
 const BrandName = ({ className }: BrandNameProps) => {
   return (
-    <span className={cn("font-heading text-2xl md:text-3xl font-bold tracking-tight", className)}>
+    <span className={cn("text-2xl md:text-3xl font-bold tracking-tight", className)} style={{ fontFamily: "'Russo One', sans-serif" }}>
       Too
       <span className="relative inline-block">
         <span className="text-primary" style={{ clipPath: "inset(0 50% 0 0)" }}>W</span>
