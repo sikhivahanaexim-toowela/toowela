@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <BrandName className="text-2xl text-surface-dark-foreground" />
+            <BrandName className="text-2xl [&]:text-surface-dark-foreground [&>.relative>.absolute]:!text-primary" />
             <p className="mt-3 text-sm text-surface-dark-foreground/70 leading-relaxed">
               Your trusted partner for professional power tools, welding machines, and construction equipment.
             </p>
