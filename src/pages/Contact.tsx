@@ -40,7 +40,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-sm">Phone</h4>
-                    <p className="text-muted-foreground text-sm">+91 98404 07050</p>
+                    <p className="text-muted-foreground text-sm">9840407050</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
