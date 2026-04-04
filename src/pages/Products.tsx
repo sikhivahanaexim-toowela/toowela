@@ -68,7 +68,7 @@ const Products = () => {
                   </span>
                   <h3 className="font-heading text-lg font-semibold mt-1">{product.name}</h3>
                   <a
-                    href="https://wa.me/919876543210"
+                    href="https://wa.me/919840407050"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1 mt-3 text-sm font-medium text-primary hover:text-primary-hover transition-colors"
