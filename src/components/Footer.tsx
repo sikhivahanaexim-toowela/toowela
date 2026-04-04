@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import BrandName from "@/components/BrandName";
 
 const Footer = () => {
   return (
@@ -7,9 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="md:col-span-1">
-            <span className="font-heading text-2xl font-bold tracking-tight">
-              Too<span className="text-primary">W</span>ela
-            </span>
+            <BrandName className="text-2xl text-surface-dark-foreground" />
             <p className="mt-3 text-sm text-surface-dark-foreground/70 leading-relaxed">
               Your trusted partner for professional power tools, welding machines, and construction equipment.
             </p>
