@@ -48,7 +48,7 @@ const Contact = () => {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-sm">Address</h4>
+                    <h4 className="font-semibold text-sm whitespace-pre-line">Address{"\n"}SIKHI VAHANA EXIM</h4>
                     <p className="text-muted-foreground text-sm">No.38 Trunk Road, Poonamallee, Chennai - 600056, Tamilnadu, India</p>
                   </div>
                 </div>
