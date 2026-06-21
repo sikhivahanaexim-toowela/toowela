@@ -6,12 +6,12 @@ import productLaser from "@/assets/product-laser-welding.jpg";
 import productConstruction from "@/assets/product-construction-tools.jpg";
 import ytSicZx7 from "@/assets/yt-sic-zx7.jpg";
 import ytCut80 from "@/assets/yt-cut-80.jpg";
-import ytSaw from "@/assets/yt-saw-welder.jpg";
 import ytRsn2500 from "@/assets/yt-rsn-2500.jpg";
 import ytMma250 from "@/assets/yt-mma-250.jpg";
 import ytTig400 from "@/assets/yt-tig-400.jpg";
 import ytMig from "@/assets/yt-mig-270.jpg";
 import ytMz1000 from "@/assets/yt-mz-1000.jpg";
+import ytMz1250 from "@/assets/yt-mz-1250.jpg";
 
 const products = [
   { name: "Cordless Drill & Impact Wrench Set", category: "Power Tools", image: productPowerTools },
