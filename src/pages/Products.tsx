@@ -10,7 +10,6 @@ import ytRsn2500 from "@/assets/yt-rsn-2500.jpg";
 import ytMma250 from "@/assets/yt-mma-250.jpg";
 import ytTig400 from "@/assets/yt-tig-400.jpg";
 import ytMig from "@/assets/yt-mig-270.jpg";
-import ytMz1000 from "@/assets/yt-mz-1000.jpg";
 import ytMz1250 from "@/assets/yt-mz-1250.jpg";
 
 const products = [
@@ -24,7 +23,6 @@ const products = [
   { name: "Arc Stud Welder RSN-2500", category: "Arc Stud Welders", image: ytRsn2500 },
   { name: "Stick Welder MMA-250T", category: "Stick Welders (SMAW)", image: ytMma250 },
   { name: "MIG-270F", category: "MIG/MAG Welders (GMAW)", image: ytMig },
-  { name: "Submerged Arc Welder MZ-1000", category: "Submerged Arc Welders", image: ytMz1000 },
   { name: "Submerged Arc Welder MZ-1250", category: "Submerged Arc Welders", image: ytMz1250 },
 ];
 
