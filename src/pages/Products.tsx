@@ -25,7 +25,7 @@ const products = [
   { name: "Stick Welder MMA-250T", category: "Stick Welders (SMAW)", image: ytMma250 },
   { name: "MIG-270F", category: "MIG/MAG Welders (GMAW)", image: ytMig },
   { name: "Submerged Arc Welder MZ-1000", category: "Submerged Arc Welders", image: ytMz1000 },
-  { name: "Submerged Arc Welder", category: "Submerged Arc Welders", image: ytSaw },
+  { name: "Submerged Arc Welder MZ-1250", category: "Submerged Arc Welders", image: ytMz1250 },
 ];
 
 const fadeUp = {
