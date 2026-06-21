@@ -62,6 +62,51 @@ const products = [
   { name: "Stick Welder MMA-315", category: "Stick Welders (SMAW)", image: ytMma315 },
   { name: "Stick Welder MMA-315T", category: "Stick Welders (SMAW)", image: ytMma315t },
   { name: "Submerged Arc Welder", category: "Submerged Arc Welders", image: ytSaw },
+  // Additional MIG/MAG models
+  { name: "MIG-270F", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-280V", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-350", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-350F", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-350P", category: "MIG/MAG Double Pulse", image: ytMig },
+  { name: "MIG-350V", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-350X", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-500", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-500F", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-500P", category: "MIG/MAG Double Pulse", image: ytMig },
+  { name: "MIG-500V", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-500X", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG-630X", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  // Additional Stick (MMA) models
+  { name: "MMA-400", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400C", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400D", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400DL", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400S", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400STG", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-400T", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-500", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-500D", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-500S", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-500STG", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-630D", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-630DH", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-630N", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-630S", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "MMA-630STG", category: "Stick Welders (SMAW)", image: ytMma315 },
+  // Additional TIG models
+  { name: "TIG-250", category: "TIG Welders (GTAW)", image: ytTig400 },
+  { name: "TIG-315", category: "TIG Welders (GTAW)", image: ytTig400 },
+  { name: "WSME-315", category: "TIG Welders Pulse AC/DC", image: ytTig400 },
+  { name: "WSME-500", category: "TIG Welders Pulse AC/DC", image: ytTig400 },
+  // Additional Plasma Cutters
+  { name: "Plasma Cutter CUT-100", category: "Plasma Cutters", image: ytCut80 },
+  { name: "Plasma Cutter CUT-120", category: "Plasma Cutters", image: ytCut80 },
+  { name: "Plasma Cutter CUT-160", category: "Plasma Cutters", image: ytCut80 },
+  // Additional Arc Stud Welders
+  { name: "Arc Stud Welder RSN-1600", category: "Arc Stud Welders", image: ytRsn2500 },
+  // Submerged Arc Welders
+  { name: "Submerged Arc Welder MZ-1000", category: "Submerged Arc Welders", image: ytSaw },
+  { name: "Submerged Arc Welder MZ-1250", category: "Submerged Arc Welders", image: ytSaw },
 ];
 
 const fadeUp = {
