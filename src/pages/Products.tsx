@@ -8,12 +8,27 @@ import productAngleGrinder from "@/assets/product-angle-grinder.jpg";
 import productCircularSaw from "@/assets/product-circular-saw.jpg";
 import productDemolitionHammer from "@/assets/product-demolition-hammer.jpg";
 import ytMig from "@/assets/yt-mig-welder.jpg";
-import ytSic from "@/assets/yt-sic-module.jpg";
-import ytPlasma from "@/assets/yt-plasma-cutter.jpg";
-import ytTig from "@/assets/yt-tig-welder.jpg";
-import ytStud from "@/assets/yt-stud-welder.jpg";
-import ytMma from "@/assets/yt-mma-welder.jpg";
 import ytSaw from "@/assets/yt-saw-welder.jpg";
+import yt500sicz1 from "@/assets/yt-500sicz1.jpg";
+import ytUniversal500 from "@/assets/yt-universal-500sic.jpg";
+import ytNbc350 from "@/assets/yt-nbc-350sic.jpg";
+import ytNbc500 from "@/assets/yt-nbc-500sic.jpg";
+import ytWsm315 from "@/assets/yt-wsm-315sic.jpg";
+import ytWsm400 from "@/assets/yt-wsm-400sic.jpg";
+import ytWsm500 from "@/assets/yt-wsm-500sic.jpg";
+import ytBuiltin80 from "@/assets/yt-builtin-80sic.jpg";
+import ytBuiltin120 from "@/assets/yt-builtin-120sic.jpg";
+import ytBuiltin160 from "@/assets/yt-builtin-160sic.jpg";
+import ytSic1000 from "@/assets/yt-sic-1000.jpg";
+import ytSic2500q from "@/assets/yt-sic-2500q.jpg";
+import ytSic2500 from "@/assets/yt-sic-2500.jpg";
+import ytSicManual1000 from "@/assets/yt-sic-manual-1000.jpg";
+import ytRsn2500 from "@/assets/yt-rsn-2500.jpg";
+import ytCut80 from "@/assets/yt-cut-80.jpg";
+import ytTig400 from "@/assets/yt-tig-400.jpg";
+import ytMma250t from "@/assets/yt-mma-250t.jpg";
+import ytMma315 from "@/assets/yt-mma-315.jpg";
+import ytMma315t from "@/assets/yt-mma-315t.jpg";
 
 const products = [
   { name: "Cordless Drill & Impact Wrench Set", category: "Power Tools", image: productPowerTools },
@@ -25,26 +40,27 @@ const products = [
   { name: "Demolition Hammer", category: "Construction Tools", image: productDemolitionHammer },
   { name: "MIG/MAG Welder 500A", category: "MIG/MAG Welders (GMAW)", image: ytMig },
   { name: "MIG/MAG Welder Double Pulse 350A", category: "MIG/MAG Double Pulse", image: ytMig },
-  { name: "500SICZ1", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Universal 500SIC (Whole Network)", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "NBC-350SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "NBC-500SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "WSM-315SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "WSM-400SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "WSM-500SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Built-in 80SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Built-in 120SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Built-in 160SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Silicon Carbide 1000SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Silicon Carbide 2500QSIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Silicon Carbide 2500SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Silicon Carbide Manual Welding 1000SIC", category: "SiC Silicon Carbide Series", image: ytSic },
-  { name: "Plasma Cutter CUT-80", category: "Plasma Cutters", image: ytPlasma },
-  { name: "TIG Welder 400A", category: "TIG Welders (GTAW)", image: ytTig },
-  { name: "TIG Welder Pulse AC/DC", category: "TIG Welders Pulse AC/DC", image: ytTig },
-  { name: "Arc Stud Welder RSN-2500", category: "Arc Stud Welders", image: ytStud },
-  { name: "Stick Welder MMA-250T", category: "Stick Welders (SMAW)", image: ytMma },
-  { name: "Stick Welder MMA-315", category: "Stick Welders (SMAW)", image: ytMma },
+  { name: "500SICZ1", category: "SiC Silicon Carbide Series", image: yt500sicz1 },
+  { name: "Universal 500SIC (Whole Network)", category: "SiC Silicon Carbide Series", image: ytUniversal500 },
+  { name: "NBC-350SIC", category: "SiC Silicon Carbide Series", image: ytNbc350 },
+  { name: "NBC-500SIC", category: "SiC Silicon Carbide Series", image: ytNbc500 },
+  { name: "WSM-315SIC", category: "SiC Silicon Carbide Series", image: ytWsm315 },
+  { name: "WSM-400SIC", category: "SiC Silicon Carbide Series", image: ytWsm400 },
+  { name: "WSM-500SIC", category: "SiC Silicon Carbide Series", image: ytWsm500 },
+  { name: "Built-in 80SIC", category: "SiC Silicon Carbide Series", image: ytBuiltin80 },
+  { name: "Built-in 120SIC", category: "SiC Silicon Carbide Series", image: ytBuiltin120 },
+  { name: "Built-in 160SIC", category: "SiC Silicon Carbide Series", image: ytBuiltin160 },
+  { name: "Silicon Carbide 1000SIC", category: "SiC Silicon Carbide Series", image: ytSic1000 },
+  { name: "Silicon Carbide 2500QSIC", category: "SiC Silicon Carbide Series", image: ytSic2500q },
+  { name: "Silicon Carbide 2500SIC", category: "SiC Silicon Carbide Series", image: ytSic2500 },
+  { name: "Silicon Carbide Manual Welding 1000SIC", category: "SiC Silicon Carbide Series", image: ytSicManual1000 },
+  { name: "Plasma Cutter CUT-80", category: "Plasma Cutters", image: ytCut80 },
+  { name: "TIG Welder TIG-400", category: "TIG Welders (GTAW)", image: ytTig400 },
+  { name: "TIG Welder Pulse AC/DC", category: "TIG Welders Pulse AC/DC", image: ytTig400 },
+  { name: "Arc Stud Welder RSN-2500", category: "Arc Stud Welders", image: ytRsn2500 },
+  { name: "Stick Welder MMA-250T", category: "Stick Welders (SMAW)", image: ytMma250t },
+  { name: "Stick Welder MMA-315", category: "Stick Welders (SMAW)", image: ytMma315 },
+  { name: "Stick Welder MMA-315T", category: "Stick Welders (SMAW)", image: ytMma315t },
   { name: "Submerged Arc Welder", category: "Submerged Arc Welders", image: ytSaw },
 ];
 
