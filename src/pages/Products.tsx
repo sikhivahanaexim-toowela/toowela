@@ -7,6 +7,13 @@ import productConstruction from "@/assets/product-construction-tools.jpg";
 import productAngleGrinder from "@/assets/product-angle-grinder.jpg";
 import productCircularSaw from "@/assets/product-circular-saw.jpg";
 import productDemolitionHammer from "@/assets/product-demolition-hammer.jpg";
+import ytMig from "@/assets/yt-mig-welder.jpg";
+import ytSic from "@/assets/yt-sic-module.jpg";
+import ytPlasma from "@/assets/yt-plasma-cutter.jpg";
+import ytTig from "@/assets/yt-tig-welder.jpg";
+import ytStud from "@/assets/yt-stud-welder.jpg";
+import ytMma from "@/assets/yt-mma-welder.jpg";
+import ytSaw from "@/assets/yt-saw-welder.jpg";
 
 const products = [
   { name: "Cordless Drill & Impact Wrench Set", category: "Power Tools", image: productPowerTools },
@@ -16,6 +23,18 @@ const products = [
   { name: "Angle Grinder", category: "Power Tools", image: productAngleGrinder },
   { name: "Circular Saw", category: "Power Tools", image: productCircularSaw },
   { name: "Demolition Hammer", category: "Construction Tools", image: productDemolitionHammer },
+  { name: "MIG/MAG Welder 500A", category: "MIG/MAG Welders (GMAW)", image: ytMig },
+  { name: "MIG/MAG Welder Double Pulse 350A", category: "MIG/MAG Double Pulse", image: ytMig },
+  { name: "Silicon Carbide Inverter Module 1000SIC", category: "SiC Silicon Carbide Series", image: ytSic },
+  { name: "Silicon Carbide Module 2500SIC", category: "SiC Silicon Carbide Series", image: ytSic },
+  { name: "Built-in Silicon Carbide 160SIC", category: "SiC Silicon Carbide Series", image: ytSic },
+  { name: "Plasma Cutter CUT-80", category: "Plasma Cutters", image: ytPlasma },
+  { name: "TIG Welder 400A", category: "TIG Welders (GTAW)", image: ytTig },
+  { name: "TIG Welder Pulse AC/DC", category: "TIG Welders Pulse AC/DC", image: ytTig },
+  { name: "Arc Stud Welder RSN-2500", category: "Arc Stud Welders", image: ytStud },
+  { name: "Stick Welder MMA-250T", category: "Stick Welders (SMAW)", image: ytMma },
+  { name: "Stick Welder MMA-315", category: "Stick Welders (SMAW)", image: ytMma },
+  { name: "Submerged Arc Welder", category: "Submerged Arc Welders", image: ytSaw },
 ];
 
 const fadeUp = {
